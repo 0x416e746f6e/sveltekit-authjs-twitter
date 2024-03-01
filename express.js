@@ -3,9 +3,8 @@ import express from 'express';
 
 const app = express();
 
-// let SvelteKit handle everything else, including serving prerendered pages and static assets
 app.use(handler);
 
-app.listen(3000, () => {
-	console.log('listening on port 3000');
+app.listen(5173, () => {
+	console.log('http://localhost:5173/');
 });
