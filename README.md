@@ -13,3 +13,15 @@ Building:
 yarn install
 yarn build
 ```
+
+Running with nodejs:
+
+```shell
+node build/index.js
+```
+
+Running with express:
+
+```shell
+node express.js
+```
